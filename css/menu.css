@@ -1,0 +1,10 @@
+.Menu{
+    width: 50%;                                         /*Cada párrafo ocupa la mitad del ancho */
+    padding: 10px;                                      /* Espaciado interno */
+    box-sizing: border-box;                             /* Evita que el padding afecte el ancho */
+    background-color: #3498db;                        /* Solo para visualización */
+    color: white;
+    border: 1px solid #ccc;                           /*Solo para visualizar */
+    border-radius: 5px;
+    font-family: 'Montserrat', sans-serif;              /* fuente */
+}

@@ -1,0 +1,12 @@
+.encabezado {
+    font-family: 'Montserrat', sans-serif;  /* fuente */
+    font-size: 1.5rem;                      /* Tamaño grande */
+    font-weight: 700;                       /* Negrita */
+    color: #333;                          /* color  */
+    text-align: center;                     /* Centrado */
+    letter-spacing: 2px;                    /* espacio entre letras */
+    text-transform: uppercase;              /* Convertir a mayúsculas */
+    background-color: #e4d080;            /* color al fondo */
+    border-radius: 5px;                     /* Bordes redondeados */
+}
+
