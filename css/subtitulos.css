@@ -1,11 +1,11 @@
-h2{
+.subtitulo{
     font-family: 'Montserrat', sans-serif;      /* fuente */ 
     font-weight: 700;                           /* Negrita */
     color: #000000;                           /* color  */
-    padding: 10px;                                      /* Espaciado interno */
+    padding: 10px;                              /* Espaciado interno */
     text-align: left;                           /* está a la izquierda */
-    letter-spacing: 2.0px;                        /* espacio entre letras */
+    letter-spacing: 2.0px;                      /* espacio entre letras */
     text-transform: uppercase;                  /* Convertir a mayúsculas */
     background-color: #e4d080;                /* color al fondo */
-    border-radius: 5px;                     /* Bordes redondeados */
+    border-radius: 5px;                         /* Bordes redondeados */
 }

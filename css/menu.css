@@ -1,10 +1,85 @@
-.Menu{
-    width: 50%;                                         /*Cada párrafo ocupa la mitad del ancho */
-    padding: 10px;                                      /* Espaciado interno */
+/* Contenedor principal del menú */
+.Menu {
+    width: 60%;                                         /* Ajusta el tamaño del contenedor */
+    margin: 20px auto;                                  /* Centra el menú en la página */
+    padding: 20px;                                      /* Espaciado interno */
     box-sizing: border-box;                             /* Evita que el padding afecte el ancho */
-    background-color: #3498db;                        /* Solo para visualización */
-    color: white;
-    border: 1px solid #ccc;                           /*Solo para visualizar */
-    border-radius: 5px;
-    font-family: 'Montserrat', sans-serif;              /* fuente */
+    background-color: #ffffff;                        /* Fondo blanco para un estilo limpio */
+    color: #333;                                      /* Color del texto */
+    border-radius: 8px;                                 /* Bordes redondeados */
+    font-family: 'Montserrat', sans-serif;              /* Fuente moderna */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);        /* Sombra suave para darle profundidad */
+    transition: all 0.3s ease-in-out;                   /* Transición suave para los efectos */
 }
+
+/* Estilo del título principal */
+.menu {
+    background-color: #e4d080;                /* color al fondo */
+    font-family: 'Montserrat', sans-serif;              /* Fuente moderna */
+    text-align: center;                                 /* Centra el título */
+    font-size: 2rem;                                    /* Tamaño de fuente */
+    margin-bottom: 10px;
+    color: #000000;                                   /* Color del título */
+}
+
+.subtituloMenu{
+    font-family: 'Montserrat', sans-serif;      /* fuente */ 
+    color: #e4d080;                           /* color  */
+    padding: 10px;                              /* Espaciado interno */
+    text-align: center;                           /* está a la izquierda */
+    letter-spacing: 2.0px;                      /* espacio entre letras */
+    text-transform: uppercase;                  /* Convertir a mayúsculas */
+    background-color: #000000;                /* color al fondo */
+    border-radius: 5px;                         /* Bordes redondeados */
+}
+
+/* Estilo de la lista de enlaces */
+.Menu ul {
+    list-style: none;                                   /* Elimina los puntos de la lista */
+    padding: 0;
+    margin: 0;
+    text-align: center;                                 /* Centra los enlaces */
+}
+
+/* Estilo de cada elemento de la lista */
+.Menu li {
+    margin: 10px 0;                                     /* Espaciado entre los elementos */
+}
+
+/* Estilo de los enlaces */
+.Menu a {
+    text-decoration: none;                              /* Elimina el subrayado */
+    color: #3498db;                                     /* Color de texto azul */
+    font-size: 1.2rem;                                  /* Tamaño de la fuente */
+    display: inline-block;
+    padding: 10px 20px;                                 /* Espaciado interno para el botón */
+    border-radius: 5px;                                 /* Bordes redondeados */
+    transition: background-color 0.3s, color 0.3s;      /* Transición para el hover */
+}
+
+/* Efecto hover en los enlaces */
+.Menu a:hover {
+    background-color: #e4d080;                          /* Fondo azul */
+    color: #3498db;                                        /* Texto blanco */
+    transform: scale(1.05);                              /* Efecto de escalado */
+}
+
+/* Estilo responsive para pantallas pequeñas */
+@media (max-width: 768px) {
+    .Menu {
+        width: 80%;                                     /* Menú más pequeño en dispositivos móviles */
+    }
+
+    .menu {
+        font-size: 1.8rem;                              /* Tamaño de fuente más pequeño para el título */
+    }
+
+    .subtitulo {
+        font-size: 1rem;                                /* Tamaño de fuente más pequeño para el subtítulo */
+    }
+
+    .Menu a {
+        font-size: 1rem;                                /* Ajusta el tamaño de fuente de los enlaces */
+    }
+}
+
